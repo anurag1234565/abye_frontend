@@ -1,6 +1,7 @@
 
 body{
 	width:100%;
+	height:2000px;
 	background-color:black;
 	margin:0px;
 	padding:0px;
@@ -59,9 +60,72 @@ p.menu:hover{
 }
 /*------menu ends---------*/
 
+/*------header begins---------*/
+#header{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:80%;
+	overflow:hidden;
+	background-color:black;
+	background-image:url('img/bg.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	display:block;
+	z-index:0;
+}
+
+#cover_text_background{
+	position:absolute;
+	top:30%;
+	background-color:black;
+	width:100%;
+	height:30%;
+	opacity:0.5;
+}
+
+#coverText{
+	width:100%;
+	position:absolute;
+	top:25%;
+	left:50%;
+	margin-left:-50%;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif,helvertica;
+    font-size:60px;
+    color: #FFF;
+    text-align:center;
+	margin:0px;
+	padding:0px 10px;
+}
+
+h2{
+	font-family:helvetica;
+    font-size:25px;
+    color: #DEDEDE;
+    text-align:center;
+	margin:0px;
+	margin-top:10px;	
+}
+/*------header ends---------*/
+
+
 
 /*------for tablet size screens---------*/
 @media screen and (max-width: 768px){
+
+/*------header begins---------*/
+h1.header_head{font-size:50px;padding:10px 20px;}	
+h2.header_head{	font-size:25px;padding:0px 50px;} 
+/*------header ends---------*/
+
 
 /*------menu---------*/
 #res_menu{
@@ -133,9 +197,16 @@ img.logo{
 }
 /*------menu ends---------*/
 
+
 }
 
 /*------for mobile size screens---------*/
 @media screen and (max-width: 480px){
+
+
+/*------header begins---------*/
+h1.header_head{font-size:35px;padding:10px 20px;}	
+h2.header_head{	font-size:20px;padding:0px 50px;} 
+/*------header ends---------*/
 
 }
