@@ -145,8 +145,42 @@ h2{
 	top:75%;
 }
 
+/*------main block begins---------*/
+
+#main_block{
+	text-align:center;
+}
+
 h1.header1{color:#625e5e;font-size:40px}
 h2.header2{color:#A3A3A3}
+
+
+.services_items{
+	vertical-align:top;
+	width:280px;
+	padding:100px 50px 0px 50px;
+	display:inline-block;
+	margin:0px;
+}
+
+h2.services{
+	font-family:'Roboto', sans-serif,helvertica;
+	color:#625e5e;
+	font-size:23px;
+	padding-top:25px;
+	font-weight:bold;
+}
+
+img.services{
+	border:5px solid #8EB7F4;	
+	border-radius: 100%;
+	transition: border 0.5s;
+	cursor: pointer;
+}
+img.services:hover{border:5px solid #0C57C6}
+
+/*------main block ends---------*/
+
 
 
 
