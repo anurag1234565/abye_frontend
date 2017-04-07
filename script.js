@@ -2,6 +2,16 @@ function navigate(){
 	$('html, body').animate({scrollTop: $("#content").offset().top}, 500);
 };
 
+function show_loans(){
+	$('#first').slideUp(500);
+	$('#loans').slideDown(500);
+}
+
+function show_deposites(){
+	$('#first').slideUp(500);
+	$('#deposites').slideDown(500);
+}
+
 $(window).scroll(function() { 
 
 	if ($(document).scrollTop() > 150) { /*-----If the user scrolls more than 150px----*/

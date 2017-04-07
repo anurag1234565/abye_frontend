@@ -185,7 +185,7 @@ img.services{
 }
 .services_items:hover img.services{width:160px;}
 
-#loan, #deposite {
+#loans, #deposites {
 	display: none;
 }
 
