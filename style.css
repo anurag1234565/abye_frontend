@@ -157,10 +157,11 @@ h2.header2{color:#A3A3A3}
 
 .services_items{
 	vertical-align:top;
-	width:280px;
-	padding:100px 50px 0px 50px;
+	width:160px;
+	margin:100px 70px;
 	display:inline-block;
-	margin:0px;
+	cursor: pointer;
+
 }
 
 h2.services{
@@ -172,12 +173,11 @@ h2.services{
 }
 
 img.services{
-	border:5px solid #8EB7F4;	
 	border-radius: 100%;
-	transition: border 0.5s;
-	cursor: pointer;
+	width:140px;
+	transition: width 0.8s;
 }
-img.services:hover{border:5px solid #0C57C6}
+.services_items:hover img.services{width:160px;}
 
 /*------main block ends---------*/
 
