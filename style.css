@@ -28,6 +28,9 @@ a{
 	height:70px;
 	z-index:2;
 	background-color:white;
+	-webkit-box-shadow: 0px 0px 8px 0.5px #a19b9b;
+    -moz-box-shadow: 0px 0px 8px 0.5px #a19b9b;
+    box-shadow: 0px 0px 8px 0.5px #a19b9b;
 }
 
 img.logo{
@@ -156,7 +159,6 @@ h1.header1{color:#625e5e;font-size:40px}
 h2.header2{color:#A3A3A3}
 
 .choices{
-
 }
 
 .services_items{
@@ -182,6 +184,10 @@ img.services{
 	transition: width 0.8s;
 }
 .services_items:hover img.services{width:160px;}
+
+#loan, #deposite {
+	display: none;
+}
 
 /*------main block ends---------*/
 
