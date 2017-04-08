@@ -4,9 +4,9 @@ function navigate(){
 
 function show_services(){
 	$('#pos_loan').hide();
-	$('#pos_deposite').hide();
+	$('#pos_deposit').hide();
 	$('#first').slideDown(500);
-	$('#deposites').slideUp(500);
+	$('#deposits').slideUp(500);
 	$('#loans').slideUp(500);
 };
 
@@ -16,10 +16,10 @@ function show_loans(){
 	$('#pos_loan').show();
 };
 
-function show_deposites(){
+function show_deposits(){
 	$('#first').slideUp(500);
-	$('#deposites').slideDown(500);
-	$('#pos_deposite').show();
+	$('#deposits').slideDown(500);
+	$('#pos_deposit').show();
 };
 
 
