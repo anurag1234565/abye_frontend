@@ -2,15 +2,26 @@ function navigate(){
 	$('html, body').animate({scrollTop: $("#content").offset().top}, 500);
 };
 
+function show_services(){
+	$('#pos_loan').hide();
+	$('#pos_deposite').hide();
+	$('#first').slideDown(500);
+	$('#deposites').slideUp(500);
+	$('#loans').slideUp(500);
+};
+
 function show_loans(){
-	$('#first').slideUp(500);
+	$('#first').slideUp(500);	
 	$('#loans').slideDown(500);
-}
+	$('#pos_loan').show();
+};
 
 function show_deposites(){
 	$('#first').slideUp(500);
 	$('#deposites').slideDown(500);
-}
+	$('#pos_deposite').show();
+};
+
 
 $(window).scroll(function() { 
 
